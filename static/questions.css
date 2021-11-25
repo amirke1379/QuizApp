@@ -1,0 +1,21 @@
+body {
+  background-color: beige;
+  color: rgb(100, 0, 139);
+  font-family: serif;
+  margin: 40px;
+}
+
+button {
+  background-color: rgb(100, 0, 139);
+  color: white;
+  border-radius: 10px;
+  border-width: 0px;
+  width: 150px;
+  height: 50px;
+}
+
+label {
+  margin: 5px;
+  bottom: 10px;
+  font-weight: bold;
+}
