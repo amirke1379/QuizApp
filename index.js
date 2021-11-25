@@ -35,7 +35,7 @@ app.post("/check-answers", (req, res) => {
     }
   }
   //when submitted the user sees the this response
-  res.send(`<h1>You got ${correct}/5. That is ${(correct / 5) * 100}%`);
+  res.send(`<h1>You got ${correct}/5. ${(correct / 5) * 100}%`);
 });
 
 app.listen(80);
